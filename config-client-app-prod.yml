@@ -1,0 +1,5 @@
+some:
+  prod:
+    properties: some properties
+    other:
+      properties: some other properties
