@@ -1,3 +1,10 @@
-insurence:
-  service:
-    url: http://localhost:9765/plans/getAllPlans
+management:
+  endpoints:
+    web:
+      base-path: /
+      exposure:
+        include: "*"
+
+logging:
+  level:
+    root: INFO
